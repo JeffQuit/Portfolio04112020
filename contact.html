@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- Page Title -->
+    <title>Contact: Jeff Quittman</title>
+    
+    <!-- Bootstrap CSS stylization link to ensure boostrap elements display correctly-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- CSS folder for non-boostrap stylization changes to webpage -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+<!-- Header Nav bar Bootstrap Code -->
 <header>
     <div class="container" >
         <div class="row">
-            
+            <!-- Sets space between the navbar for some white room to give balance to the page -->
             <div class="col lg 10">
+                <!-- Custom Nav bar Settings such as background color and text settings for buttons/links-->
                 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6B51D8;">
+                    <!-- Name of Jeff Quittman in the top-left hand area of the Nav Bar Header -->
                     <a class="navbar-brand" href="#">JEFF QUITTMAN</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,13 +54,58 @@
     </div>
 </header>
 
+<!--Container for the contact box-->
+<div class="container">
+    <div class="row">
+        <div class="col lg 10">
+            
+            <div class="row">
+                <!-- Div that determines size of the contact box along with padding and margin -->
+                <div class="col lg 10 py-5 px-2 mx-2" >
+                    <!--  Form container that includes the boder and additional padding -->
+                    <form class="p-3 border">
+                        <!-- Contact form Header -->
+                        <h2>Contact</h2>
+                        <div class="form-group">
+                          <!-- Label and input for Name entry text type -->
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <!-- Label and input for Email Address entry type -->
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                        <div class="form-group">
+                            <!-- Label and input for Message entry text Area type -->
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Message In This Area" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <!-- Label and input for optional atttachment area -->
+                            <label for="exampleFormControlFile1">Attachment (Optional)</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                          </div>
+                          <!-- Send Message/submit button -->
+                          <button type="submit" class="btn btn-primary mb-2" style="background-color: #6B51D8; border-color: #6B51D8;">Send Message</button>
+                      </form>
+                </div>
+                <!-- Column below adds space to the right of the contact box so it doesn't strech 100% of the width where the nav bars are -->
+                <div class="col lg 2">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-
+<!-- Fixed bottom footer code -->
 <footer class="page-footer fixed-bottom">
     <div class="container">
         <div class="row">
+            <!-- Centers footer similar to the nav bar width -->
             <div class="col lg 10">
+                <!-- Footer style and color details -->
                 <nav class="navbar  navbar-expand-lg navbar-dark" style="background-color: #8570DC;">
                     <span class="navbar-text">
                         © 2020 Copyright: Jeff Quittman
@@ -65,10 +118,12 @@
 </footer>
 
 
-    
+    <!-- Javascript entries to enable Bootstrap functionality -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- End Bootstrap Javascrip entries -->
+    <!-- Additional Javascript file for non-bootstrap functionality-->
     <script src="js/javascript.js"></script>
 </body>
 </html>
