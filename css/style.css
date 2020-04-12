@@ -1,0 +1,30 @@
+
+
+.portimg {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    
+
+
+}
+.rectoverlay {
+    width: 250px;
+    height: 20%;
+    background-color: #6B51D8;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 5px;
+}
+
+
+.recttext {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
